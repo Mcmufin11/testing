@@ -9,14 +9,10 @@ const TAB_DATA = [
         id: "skills",
         content: (
           <ul className="list-disc pl-2">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>JavaScript</li>
-                <li>Solidity</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Tailwind CSS</li>
-                <li>Python</li>
+                <li>C#</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>Python</li>  
           </ul>
         ),
     },
@@ -25,17 +21,7 @@ const TAB_DATA = [
         id: "experiences",
         content: (
           <ul className="list-disc pl-2">
-            <li>ETH Singapore</li>
-            <li>ETH KL</li>
-            <li>ETH Online</li>
-            <li>ETHGlobal Superhack</li>
-            <li>Solana Hyperdrive</li>
-            <li>APUBCC Sparkathon</li>
-            <li>Encode Club</li>
-            <li>Google CTF</li>
-            <li>NUS Grey CTF</li>
-            <li>Tune Protect Hackathon</li>
-            <li>geNFesT Ideathon</li>
+            <li>None</li>
           </ul>
         ),
     },
@@ -45,7 +31,7 @@ const TAB_DATA = [
         content: (
           <ul className="list-disc pl-2">
                 <li>Asia Pacific University</li>
-                <li>Tsun Jin High School</li>
+                <li>SMK Seksyen 4 Bandar Kinrara</li>
           </ul>
         ),
     }
@@ -69,9 +55,12 @@ const AboutMe = () => {
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Cyber Security at APU, where I have been honing my skills in various technologies. I am familiar in frontend development, with expertise in React, Next.js, HTML, CSS, and I'm skilled in creating visually appealing and user-friendly interfaces using Tailwind CSS.
-                        Additionally, I've ventured into the world of blockchain development, particularly with Solidity, allowing me to build smart contracts for decentralized applications.
-                        My passion for technology and problem-solving has led me to actively participate in 11 hackathons this year, where I primarily serve as a Front End Developer. However, I am not limited to frontend tasks and often take on backend responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
+                    <p className="text-base text-justify lg:text-lg"> 
+                    Hi , my name is Ng Kah Jun and I am 20 years old. Currently, I am still pursuing my degree in cyber security at Asia Pacific University. 
+I have learned programming languages such as Python, C Programming and Java. I have also learned additional domain specific programming language such as MSSQL and R programming. Additionally, I have acquired skills to operate on Operating System such as Kali Linux and Ubuntu. 
+Besides that, I am a good follower as I will  go over my limits and finish the tasks given to me. I am also a curious person as I am not afraid to ask questions to improve my skills and myself as a person. 
+I like to play badminton every week as i believe it is a very good stress reliever after a long and hectic week
+                     </p>
                     <div className="flex flex-row mt-8">
 {/* 1e */}
                         <TabButton 

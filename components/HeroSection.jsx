@@ -20,7 +20,7 @@ const HeroSection = () => {
               <span className="text-white text-8xl ">
                 Hello, I'm{" "} 
                 <span className="text-transparent bg-clip-text sm:text-8xl md:text-9xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                Yee Chian
+                Kah Jun
                 </span>
               </span>
               <br></br>
@@ -57,7 +57,7 @@ const HeroSection = () => {
               </Link>
              
               <Link
-                href="https://drive.google.com/file/d/1ajOJwhrua1lElHtbVjzOv12ySXn8xPBa/view?usp=sharing"
+                href="https://drive.google.com/file/d/1QUuoblVnC9BiL4oxb3JEOa05Iwdo53GL/view?usp=sharing"
                 className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-pink-500 hover:bg-pink-400">
                 <span className="text-xl text-white">View my Resume</span>
               </Link>
